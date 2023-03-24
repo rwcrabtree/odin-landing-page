@@ -1,11 +1,39 @@
 * {
     padding: 0;
     margin: 0;
-   }
+    font-family: 'roboto', sans-serif;
+    
+  }
 
 .header {
+    margin-left: 5em;
+    margin-right: 5em;
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.headertop {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    font-weight: 900;
+    padding: 20px;
+    font-size: 24px;
+    margin-left: 5em
+}
+
+ul {
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 8em;
+       
 }
 
 
@@ -17,8 +45,20 @@ a {
 button {
     background-color: #3882f6;
     color: white;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
     border-radius: 5px;
+    border: none;
 }
 
+.title {
+    font-weight:  900;
+    font-size: 48px;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
