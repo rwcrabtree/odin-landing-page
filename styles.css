@@ -4,6 +4,12 @@
     font-family: 'roboto', sans-serif;
     
   }
+  
+body {
+    background-color: rgba(26, 25, 25, 0.932);
+}
+
+/* SECTION ONE */
 
 .header {
     margin-left: 5em;
@@ -18,6 +24,7 @@
     display: flex;
     flex: 1;
     justify-content: space-between;
+    margin-bottom: 3em;
 }
 
 .headerlogo {
@@ -32,8 +39,29 @@ ul {
     display: flex;
     list-style: none;
     gap: 50px;
-    margin-right: 8em;
-       
+    margin-right: 8em;     
+}
+
+.headerbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hbleft {
+    display: flex;
+    margin-left: 7.5em;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.title {
+    max-width: 350px;
+
+}
+
+.titlesub {
+    max-width: 350px;
+    margin-bottom: 1em;
 }
 
 
@@ -43,6 +71,7 @@ a {
 }
 
 button {
+    max-width: 125px;
     background-color: #3882f6;
     color: white;
     padding-left: 2em;
@@ -51,6 +80,7 @@ button {
     padding-top: .5em;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
 }
 
 .title {
@@ -59,6 +89,89 @@ button {
 }
 
 img {
+    margin-right: 9em;
     height: auto;
     width: 400px;
+    margin-bottom: 4em;
+}
+
+.hbright {
+    display: flex;
+    
+}
+
+/* SECTION TWO */
+
+.bodytop {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.texttop {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    font-weight: 500;
+    max-width: fit-content;
+    align-self: center;
+}
+
+.ultwo {
+    justify-content: center;   
+    margin-right: 0; 
+    padding: 0;
+}
+
+.ultwo li {
+    border-radius: 10px;
+    justify-content: space-between;
+    border: 4px solid #3882f6;
+    height: 100px;
+    width: 100px;
+}
+
+.subtext {
+    border: 4px;
+    padding: 0;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.subtext li {
+    color: rgb(59, 59, 59);
+    height: 100px;
+    width: 100px;
+    margin-bottom: 3em;
+}
+
+/* SECTION THREE */
+
+.bodybottom {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(185, 183, 183);
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+p {
+    align-self: center;
+    max-width: 600px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    margin-top: 2em;
+    margin-bottom: .5em;
+
+}
+
+aside {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 20em;
+    margin-bottom: 2em;
 }
