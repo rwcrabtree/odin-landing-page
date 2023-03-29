@@ -175,3 +175,59 @@ aside {
     margin-right: 20em;
     margin-bottom: 2em;
 }
+
+/* SECTION FOUR */
+
+.footerone {
+    background-color: white;
+    display: flex;
+    margin-left: 5em;
+    margin-right: 5em;
+    justify-content: center;
+}
+
+.footerone .blue {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #3882f6;
+    padding: 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    width: 700px;
+}
+
+.footer {
+    border: 2px solid white;
+    justify-self: flex-end;
+}
+
+.footerone .footer:nth-child(3) {
+    align-self: flex-end;
+    
+}
+
+.cta {
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+/* FOOTER FOOTER */
+
+.footerfooter {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.footerfooter p {
+    color: white;
+    padding: 0;
+    margin: 0;  
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
